@@ -49,16 +49,16 @@ class MenuNiveles(discord.ui.Select):
         # --- CAJA DE IMÁGENES MODO ECO ---
         imagenes_eco = {
             "Nivel 15": "https://media.discordapp.net/attachments/1475960551615103152/1475960672927092796/IMG-20260224-WA0009.jpg?ex=699f62fe&is=699e117e&hm=eba5179bae6ae1f90a1eb243fbe74e6792bc1e0449f9354589d8b7447e476bb0&=&format=webp&width=600&height=270",
-            "Nivel 16": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+16",
-            "Nivel 17": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+17",
-            "Nivel 18": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+18",
-            "Nivel 19": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+19",
-            "Nivel 20": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+20",
-            "Nivel 21": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+21",
-            "Nivel 22": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+22",
-            "Nivel 23": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+23",
-            "Nivel 24": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+24",
-            "Nivel 25": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+25",
+            "Nivel 16": "https://media.discordapp.net/attachments/1475960551615103152/1475960723162271866/IMG-20260224-WA0010.jpg?ex=699f630a&is=699e118a&hm=6539637035feebc8d6e0cc00dae42c76c857979155f1219c3a8909a49ec64ca9&=&format=webp&width=602&height=276",
+            "Nivel 17": "https://media.discordapp.net/attachments/1475960551615103152/1475961695041228985/IMG-20260224-WA0014.jpg?ex=699f63f2&is=699e1272&hm=30e18e622cc9fe2ff1b4378fe247f7d8d093ad0eee76312bc096fe03a17d1266&=&format=webp&width=600&height=246",
+            "Nivel 18": "https://media.discordapp.net/attachments/1475960551615103152/1475962295535276093/IMG-20260224-WA0015.jpg?ex=699f6481&is=699e1301&hm=ff82346fa59dbc2eff1f645b70d67f3406125d7d1749d8ef70d3201d812d38d1&=&format=webp&width=598&height=247",
+            "Nivel 19": "https://media.discordapp.net/attachments/1475960551615103152/1475963870571925515/IMG-20260224-WA0018.jpg?ex=699f65f8&is=699e1478&hm=f9e8d157931df615930f5c4baedbec8bda5f300b3efd3b2955cde423433db846&=&format=webp&width=597&height=258",
+            "Nivel 20": "https://media.discordapp.net/attachments/1475960551615103152/1475966402786623578/IMG-20260224-WA0019.jpg?ex=699f6854&is=699e16d4&hm=c95f42219913e0d29f15a8d492292ee34bf355366a73ee9f8df6218bba48a9a3&=&format=webp&width=597&height=252",
+            "Nivel 21": "https://media.discordapp.net/attachments/1475960551615103152/1475970172484321311/IMG-20260224-WA0022.jpg?ex=699f6bd7&is=699e1a57&hm=ac33e9a6ee64b4759dcf8963acfc2ce5e929247a97043b7e5b30626be345448c&=&format=webp&width=604&height=261",
+            "Nivel 22": "https://media.discordapp.net/attachments/1475960551615103152/1475975979007742013/IMG-20260224-WA0024.jpg?ex=699f713f&is=699e1fbf&hm=3bb47aa0c412bf0f78ef28bce82c241e0f84272060219d0b122f2ea330496872&=&format=webp&width=598&height=254",
+            "Nivel 23": "https://media.discordapp.net/attachments/1475960551615103152/1475978734535184577/IMG-20260224-WA0025.jpg?ex=699f73d0&is=699e2250&hm=6222a4f8fc1fc0903ff1d6dcc69361bdd3216d24cc57efe06dcf4b920b257798&=&format=webp&width=606&height=268",
+            "Nivel 24": "https://media.discordapp.net/attachments/1475960551615103152/1475979840837521625/IMG-20260224-WA0028.jpg?ex=699f74d8&is=699e2358&hm=7f945e20b372da2320a29e2101a71a7f8fdb3b98ec5db25973cdcd4771ff30d4&=&format=webp&width=602&height=274",
+            "Nivel 25": "https://media.discordapp.net/attachments/1475960551615103152/1475983824398848061/IMG-20260224-WA0029.jpg?ex=699f788e&is=699e270e&hm=ce6805533856c409138ad59c169da16f2c782a02b54c83963e28598bf71bb430&=&format=webp&width=643&height=414",
             "Nivel 26": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+26",
             "Nivel 27": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+27",
             "Nivel 28": "https://dummyimage.com/600x400/2ecc71/ffffff&text=ECO+Lvl+28",
@@ -78,16 +78,16 @@ class MenuNiveles(discord.ui.Select):
         # --- CAJA DE IMÁGENES MODO WAR ---
         imagenes_war = {
             "Nivel 15": "https://media.discordapp.net/attachments/1475960551615103152/1475960672591544410/IMG-20260224-WA0012.jpg?ex=699f62fe&is=699e117e&hm=ef095336140cf0116410bcfe6a45eaf4351e060a81567fc2c0b1e23e1dc9c439&=&format=webp&width=601&height=642",
-            "Nivel 16": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+16",
-            "Nivel 17": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+17",
-            "Nivel 18": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+18",
-            "Nivel 19": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+19",
-            "Nivel 20": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+20",
-            "Nivel 21": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+21",
-            "Nivel 22": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+22",
-            "Nivel 23": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+23",
-            "Nivel 24": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+24",
-            "Nivel 25": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+25",
+            "Nivel 16": "https://media.discordapp.net/attachments/1475960551615103152/1475960723485102232/IMG-20260224-WA0011.jpg?ex=699f630a&is=699e118a&hm=b3d6d2ec8af7c6ede8b99927420f94c8fcb8df7450e02eb969caa90ba1e44b3d&=&format=webp&width=589&height=644",
+            "Nivel 17": "https://media.discordapp.net/attachments/1475960551615103152/1475961696098189463/IMG-20260224-WA0013.jpg?ex=699f63f2&is=699e1272&hm=0e68a5ece27f2f6559cc5d257911c85401316545d4c98ad70ff3d47a74956a8d&=&format=webp&width=609&height=641",
+            "Nivel 18": "https://media.discordapp.net/attachments/1475960551615103152/1475962295031955466/IMG-20260224-WA0016.jpg?ex=699f6481&is=699e1301&hm=a8c08d60542e56757346c8c23358144c3b2886871ae8712c926addcb0d316fa9&=&format=webp&width=612&height=646",
+            "Nivel 19": "https://media.discordapp.net/attachments/1475960551615103152/1475963870899212371/IMG-20260224-WA0017.jpg?ex=699f65f8&is=699e1478&hm=a193420e7d7f3ede140e6b1e3d6cb04b4f6abe903d93329102bd29f582f70657&=&format=webp&width=602&height=645",
+            "Nivel 20": "https://media.discordapp.net/attachments/1475960551615103152/1475966402480312481/IMG-20260224-WA0020.jpg?ex=699f6854&is=699e16d4&hm=6180bd2bcf28199d6f698eb020658d28361581f4eb632a95e7c44ccb903ad4b4&=&format=webp&width=604&height=645",
+            "Nivel 21": "https://media.discordapp.net/attachments/1475960551615103152/1475970172836778187/IMG-20260224-WA0021.jpg?ex=699f6bd7&is=699e1a57&hm=f921066a73cebd1dc223d3125d2ac9c50560144e7b431dc778dbd3236aee3969&=&format=webp&width=606&height=646",
+            "Nivel 22": "https://media.discordapp.net/attachments/1475960551615103152/1475975979733221438/IMG-20260224-WA0023.jpg?ex=699f713f&is=699e1fbf&hm=b20268714abd197a29a52ecef6ad96aa4ba225518d6369b05ce89db50916cf26&=&format=webp&width=610&height=651",
+            "Nivel 23": "https://media.discordapp.net/attachments/1475960551615103152/1475978734086656111/IMG-20260224-WA0026.jpg?ex=699f73d0&is=699e2250&hm=6538aa8a36ff5bfba30cbdec6d86ad04b58e3d7d3fc22b47f2805602ce3c89d6&=&format=webp&width=608&height=646",
+            "Nivel 24": "https://media.discordapp.net/attachments/1475960551615103152/1475979841366134917/IMG-20260224-WA0027.jpg?ex=699f74d8&is=699e2358&hm=ad1f5886c7655d53e0fbd6b88f30d0a5e9bab3d48e02c82ebf5fabd28a8b5158&=&format=webp&width=598&height=648",
+            "Nivel 25": "https://media.discordapp.net/attachments/1475960551615103152/1475983823887011931/IMG-20260224-WA0030.jpg?ex=699f788e&is=699e270e&hm=9014067da796603f33b31a389b2faa59dcea4a380b8a7c44f66e3b6d13dd025b&=&format=webp&width=596&height=650",
             "Nivel 26": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+26",
             "Nivel 27": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+27",
             "Nivel 28": "https://dummyimage.com/600x400/e74c3c/ffffff&text=WAR+Lvl+28",
@@ -166,3 +166,4 @@ async def on_ready():
 
 mantener_vivo()
 bot.run(TOKEN)
+
